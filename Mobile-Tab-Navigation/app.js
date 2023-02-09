@@ -1,5 +1,6 @@
 const contents = document.querySelectorAll(".content");
 const navBtn = document.querySelectorAll("nav ul li");
+
 navBtn.forEach((btn,idx) =>{
     btn.addEventListener("click",()=>{
         hideAllContents()
